@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;}
+
+body{
+background-color:rgb(233, 233, 233);
+}
+
+div img{
+  margin:0 auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.fixed{
+  position: fixed;
+  right:100px;
+  bottom:100px;
+}
+.fixed:hover{
+  opacity:0.8;
+}
+.fixed2{
+  position: fixed;
+  right:100px;
+  bottom:40px;
+}
+.fixed2:hover{
+  opacity:0.8;
+}
+
+.po{
+  position: relative;
+  
+}
+
+.po img{
+  margin-bottom: 0;
+}
+
+.web{
+  position:absolute;
+ bottom: 40px;
+  left: 370px;
+  width: 759px;
+  height: 563px;
+}
+
+.banner{
+  position:absolute;
+  top: 90px;
+ right: 370px;
+  width: 587px;
+  height:326px;
+  z-index: 1;
+}
